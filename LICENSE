@@ -1,0 +1,99 @@
+KUDOS SOURCE AVAILABLE LICENSE
+Version 2.5
+
+Copyright (c) 2026-8086 KUSSA (KUSSA_LTSC)
+
+NOTICE REGARDING THE YEAR "8086"
+
+The copyright year range "2026-8086" is an artistic expression and does not constitute a legal assertion that copyright protection extends to the year 8086. The actual duration of copyright protection is governed by the Copyright Law of the People's Republic of China and applicable international treaties. For natural person authors, economic rights are protected for the life of the author plus 50 years after death. For legal person or other organization works, economic rights are protected for 50 years from the date of first publication.
+
+PREAMBLE
+
+This license allows you to view, learn from, and use this software for non‑commercial personal or educational purposes, while reserving all commercial rights to the Project Owner. The Project Owner supports and encourages educational and non‑commercial use.
+
+1. DEFINITIONS
+
+1.1 "Commercial Purpose" means any use intended for or resulting in economic gain, including:
+(a) Use by any for‑profit organization, whether for business operations, internal workflows, or customer‑facing services.
+(b) Use for internal business operations, including data processing, reporting, automation, or other activities supporting core functions.
+(c) Use by any individual while acting within the scope of their employment, using employer‑provided equipment, or performing duties on behalf of a for‑profit organization, regardless of when or where the code was written or created. For the avoidance of doubt: if the Software, or any output, result, report, or derivative work based on the Software, is executed, deployed, used, or otherwise applied in any context that supports or furthers the business operations or commercial decision-making of a for‑profit organization, such use shall be deemed a Commercial Purpose. Personal evaluation does not exempt subsequent deployment in a commercial context. Any use of the Software, or its outputs, to inform, support, or influence any business decision or operation shall be deemed Commercial Purpose.
+(d) For the avoidance of doubt: use of the Software by a for-profit organization for evaluation, testing, benchmarking, or trial purposes, even without deployment in production, shall be deemed a Commercial Purpose and is strictly prohibited without a separate commercial license.
+
+Non‑profit organizations using the Software for internal administrative operations shall NOT be deemed Commercial Purpose, provided they are legally recognized as non‑profit and do not use the Software to generate revenue or provide fee‑based services.
+
+1.2 "Modified Version" means any version differing from the original source code release, including:
+(a) Changes to source code files.
+(b) Addition, removal, or modification of files or directories.
+(c) Changes to configuration files affecting Software behavior, except as permitted in Section 2(e).
+
+For the avoidance of doubt: Packaging unmodified Software alongside other software on the same medium does NOT constitute a Modified Version, provided source files remain unchanged and the Software is not recompiled or altered. Transfer of the Software or its Modified Versions between different departments, subsidiaries, or affiliates of the same legal entity constitutes distribution and is subject to all restrictions set forth in this license.
+
+2. PERMISSIONS
+
+You may:
+
+(a) Download, view, and use the source code for personal, educational, or private purposes.
+
+(b) Modify the source code for personal, educational, or private use only. Modified versions are for personal use ONLY and may NOT be distributed to any third party, including but not limited to other departments, subsidiaries, or affiliates of the same legal entity.
+
+(c) Submit contributions (Pull Requests). By doing so, you agree:
+    (i) You retain copyright of your contribution.
+    (ii) You grant the Project Owner (KUSSA/KUSSA_LTSC) a perpetual, worldwide, royalty‑free, irrevocable, sublicensable license to use, reproduce, modify, distribute, and monetize your contribution.
+    (iii) The Project Owner has sole authority to determine commercial licensing, distribution, and monetization terms.
+    (iv) Your contribution will only be accepted if both you AND the Project Owner agree to its inclusion. You represent that you have read, understood, and voluntarily agree to these terms.
+
+(d) Distribute ORIGINAL, UNMODIFIED copies for non‑commercial purposes only, with this license intact.
+
+(e) Modify configuration files or settings solely to enable or change operational parameters. Such modifications do NOT constitute a Modified Version, provided source files are unchanged.
+
+(f) Include this Software in larger bundles or free software distributions, provided this license is included and the Software is unmodified.
+
+3. RESTRICTIONS
+
+You may NOT:
+
+(a) Use the Software for any Commercial Purpose (as defined in Section 1.1).
+
+(b) Sell the Software or any services based on it.
+
+(c) Use the Software to generate revenue, directly or indirectly.
+
+(d) Remove or alter this license or copyright notices.
+
+(e) Distribute Modified Versions (source or binary) to any third party, including but not limited to other departments, subsidiaries, or affiliates of the same legal entity. Modified versions are for personal use only.
+
+(f) Combine, link, or distribute the Software with GPL, AGPL, or any copyleft license that imposes additional restrictions or incompatible terms. This license is NOT compatible with GPL‑family licenses. If this Software is combined with GPL-family licensed code, the resulting combination may be governed by the GPL terms, and this license shall not apply to the combined work. The Project Owner assumes no responsibility for such combinations created by third parties.
+
+(g) Reverse engineer, decompile, disassemble, or attempt to derive the source code, except as expressly permitted by applicable law.
+
+(h) Modify, adapt, translate, or create derivative works, except as permitted in Section 2(b) and 2(e).
+
+(i) Remove, obscure, or alter any proprietary notices.
+
+(j) Use the Software for any unlawful purpose.
+
+(k) Intentionally circumvent, avoid, remove, deactivate, impair, or defeat any technical protection measures implemented by the Project Owner, whether simple or complex, existing or not.
+
+(l) Use of third-party libraries or code is at your own risk. The Project Owner does not represent or warrant that this Software is compatible with or free from the licensing obligations of any third-party code. If you incorporate, link, or distribute this Software with any GPL-family licensed code, you bear sole and exclusive responsibility for complying with the terms of such licenses. Any such combination is made by you, not the Project Owner, and this license does not extend to the combined work. The Project Owner expressly disclaims any obligation to ensure compatibility with third-party licenses.
+
+4. INFRINGEMENT AND REMEDIES
+
+ANY USE NOT EXPRESSLY PERMITTED BY THIS LICENSE IS STRICTLY PROHIBITED AND CONSTITUTES COPYRIGHT INFRINGEMENT. Any use not enumerated in Section 2 requires a separate, explicit written commercial license agreement from the Project Owner. An electronic signature from the Project Owner is required for such authorization to be valid. The Project Owner may sign using their designated name (KUSSA/KUSSA_LTSC) or any other name they lawfully use to identify themselves. The authenticity of such signature shall be verified through the Project Owner's GitHub account (KUSSA_LTSC) or its associated public channels, including but not limited to the official project repository, verified email address, or PGP public key. A signature verified by GitHub's commit‑signing or release‑signing mechanisms shall be presumed authentic.
+
+Any use violating Section 3 constitutes infringement. Remedies shall be governed by the Copyright Law of the People's Republic of China.
+
+5. COMMERCIAL USE
+
+The exclusive right to monetize, sell, and profit from the Software belongs to the Project Owner (KUSSA/KUSSA_LTSC). Any commercial use by third parties requires a separate commercial license agreement as described in Section 4.
+
+6. COPYRIGHT TERM
+
+The copyright protection period is governed by the Copyright Law of the People's Republic of China. The "8086" reference in the copyright notice is an artistic expression and carries no legal effect, as expressly stated in the NOTICE at the beginning of this license.
+
+7. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT, OR OTHERWISE, ARISING FROM THE SOFTWARE OR ITS USE.
+
+8. LICENSE INTEGRITY
+
+This license must be distributed in its entirety, without modification, deletion, or addition of any terms, except as expressly permitted by the Project Owner in writing. Any attempt to modify, abridge, or supplement this license, or to remove or alter any of its provisions, shall render this license null and void with respect to the modified version. The Project Owner reserves the right to publish revised versions of this license; only the specific version referenced in the SPDX identifier or copyright notice of the Software shall apply.
