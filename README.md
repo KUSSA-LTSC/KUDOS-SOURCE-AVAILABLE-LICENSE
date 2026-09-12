@@ -1,3 +1,16 @@
+## License Notice
+
+This project is **NOT open source**. It is source-available under the  
+**KUDOS SOURCE AVAILABLE LICENSE Version 2.5**.
+
+This license is **NOT OSI-approved**. It is an anti-commercial, source-available license.
+
+Commercial use, for-profit use, evaluation by for-profit entities, bundling with commercial-related bundles, online redistribution, public forks, public mirrors, and AI training are strictly prohibited without prior **paper Written Consent** from the Project Owner.
+
+Permitted uses are limited to personal private use, non-profit internal administrative use of unmodified software, free public online courses on mainstream platforms, and non-commercial research with offline-only, non-public sharing among direct collaborators.
+
+See the `KUDOS SOURCE AVAILABLE LICENSE.txt` file for full terms.
+
 # KUDOS Source Available License
 
 **Version 2.5** · Copyright (c) 2026-8086 KUSSA (KUSSA_LTSC)
