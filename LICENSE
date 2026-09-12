@@ -3,88 +3,301 @@ Version 2.5
 
 Copyright (c) 2026-8086 KUSSA (KUSSA_LTSC)
 
+SPDX-License-Identifier: LicenseRef-KUDOS-Source-Available-2.5
+
 NOTICE REGARDING THE YEAR "8086"
 
 The copyright year range "2026-8086" is an artistic expression and does not constitute a legal assertion that copyright protection extends to the year 8086. The actual duration of copyright protection is governed by the Copyright Law of the People's Republic of China and applicable international treaties. For natural person authors, economic rights are protected for the life of the author plus 50 years after death. For legal person or other organization works, economic rights are protected for 50 years from the date of first publication.
 
+NOTICE REGARDING OPEN SOURCE STATUS
+
+This is NOT an open source license. This is a source-available, anti-commercial license. It is not approved by the Open Source Initiative (OSI). The Software is made source-visible only for the limited purposes expressly stated in this license. No rights are granted by implication, estoppel, course of dealing, or otherwise.
+
 PREAMBLE
 
-This license allows you to view, learn from, and use this software for non‑commercial personal or educational purposes, while reserving all commercial rights to the Project Owner. The Project Owner supports and encourages educational and non‑commercial use.
+This license allows only extremely limited, expressly stated non-commercial use of this software. The Project Owner encourages education only through Permitted Educational Use and encourages research only through Permitted Research Use, each as strictly defined below. All commercial rights, all distribution rights, all publication rights, and all rights not expressly granted are reserved exclusively to the Project Owner.
+
+No for-profit entity may use this Software for any purpose, including evaluation, testing, benchmarking, trial, proof-of-concept, internal workflow, or development. No commercial use is permitted unless the Project Owner has given prior explicit paper Written Consent. Any use not expressly permitted by this license is strictly prohibited and constitutes copyright infringement.
 
 1. DEFINITIONS
 
-1.1 "Commercial Purpose" means any use intended for or resulting in economic gain, including:
-(a) Use by any for‑profit organization, whether for business operations, internal workflows, or customer‑facing services.
-(b) Use for internal business operations, including data processing, reporting, automation, or other activities supporting core functions.
-(c) Use by any individual while acting within the scope of their employment, using employer‑provided equipment, or performing duties on behalf of a for‑profit organization, regardless of when or where the code was written or created. For the avoidance of doubt: if the Software, or any output, result, report, or derivative work based on the Software, is executed, deployed, used, or otherwise applied in any context that supports or furthers the business operations or commercial decision-making of a for‑profit organization, such use shall be deemed a Commercial Purpose. Personal evaluation does not exempt subsequent deployment in a commercial context. Any use of the Software, or its outputs, to inform, support, or influence any business decision or operation shall be deemed Commercial Purpose.
-(d) For the avoidance of doubt: use of the Software by a for-profit organization for evaluation, testing, benchmarking, or trial purposes, even without deployment in production, shall be deemed a Commercial Purpose and is strictly prohibited without a separate commercial license.
+1.1 "Commercial Purpose" means any use intended for or resulting in economic gain, or any use by, for, or on behalf of a for-profit entity, including:
 
-Non‑profit organizations using the Software for internal administrative operations shall NOT be deemed Commercial Purpose, provided they are legally recognized as non‑profit and do not use the Software to generate revenue or provide fee‑based services.
+(a) Use by any for-profit organization, company, partnership, sole proprietorship, business, commercial entity, or any organization operated for profit, whether for business operations, internal workflows, customer-facing services, evaluation, testing, benchmarking, trial, development, or any other purpose.
+
+(b) Use for internal business operations, including data processing, reporting, automation, decision-making, or other activities supporting core functions or commercial operations.
+
+(c) Use by any individual while acting within the scope of their employment, using employer-provided equipment, or performing duties on behalf of a for-profit organization, regardless of when or where the code was written or created.
+
+(d) For the avoidance of doubt: use of the Software by a for-profit organization for evaluation, testing, benchmarking, trial, proof-of-concept, or non-production purposes is a Commercial Purpose and is strictly prohibited without a separate commercial license granted through prior paper Written Consent.
+
+(e) Use in connection with commercialized education, paid education, fee-based education, corporate training, paid workshops, bootcamps, tutoring, offline education, in-person education, or any educational activity that is not a Permitted Educational Use.
+
+(f) Inclusion, combination, linking, bundling, or distribution of the Software with or within any Commercial-Related Bundle, even if that bundle is provided free of charge, even if no direct fee is charged, and even if the third-party components in that bundle are licensed under terms that permit commercial use.
+
+Non-profit organizations may use the Software only as expressly permitted by this license, only if they are legally recognized as non-profit, and only if they do not use the Software to generate revenue, provide fee-based services, or further any Commercial Purpose. For-profit entities are strictly prohibited from all use.
 
 1.2 "Modified Version" means any version differing from the original source code release, including:
+
 (a) Changes to source code files.
+
 (b) Addition, removal, or modification of files or directories.
+
 (c) Changes to configuration files affecting Software behavior, except as permitted in Section 2(e).
 
-For the avoidance of doubt: Packaging unmodified Software alongside other software on the same medium does NOT constitute a Modified Version, provided source files remain unchanged and the Software is not recompiled or altered. Transfer of the Software or its Modified Versions between different departments, subsidiaries, or affiliates of the same legal entity constitutes distribution and is subject to all restrictions set forth in this license.
+For clarity, changes to configuration files that consist solely of parameter or setting changes and contain no source code, scripts, executable logic, or other code do NOT constitute a Modified Version, whether or not they are publicly shared in accordance with Section 2(e).
+
+For the avoidance of doubt: Packaging unmodified Software alongside other software on the same medium does NOT constitute a Modified Version, provided source files remain unchanged and the Software is not recompiled or altered. However, any distribution, publication, sharing, uploading, transmission, or making available of the Software or any Modified Version to any third party requires prior paper Written Consent, except as expressly allowed by this license. Transfer of the Software or its Modified Versions between different departments, subsidiaries, affiliates, friends, colleagues, students, research collaborators, or any other third parties constitutes distribution and is strictly prohibited without prior paper Written Consent, except as expressly allowed by Section 1.4 and Section 2(e).
+
+1.3 "Permitted Educational Use" means use solely in a publicly available, free-of-charge course on a mainstream online platform, where:
+
+(a) The course is open to the public on a mainstream online platform.
+
+(b) The course is free of charge. No payment, subscription, paid enrollment, paid certificate, mandatory paid membership, or other mandatory fee is required to access the course content.
+
+(c) The course is not commercialized education, not corporate training, not fee-based education, not a paid workshop, not a bootcamp, not paid tutoring, not offline education, not in-person education, and not part of any for-profit educational program.
+
+(d) The Software is not distributed, uploaded, shared, sublicensed, sold, or made available to students or any third party. Students and participants must obtain the Software only from the Project Owner's official channels.
+
+(e) Any use of the Software in the course remains non-commercial and does not generate revenue, directly or indirectly, for any person or entity.
+
+(f) For the avoidance of doubt, a mainstream online platform itself shall NOT be deemed a Commercial-Related Bundle solely because the platform is operated by a for-profit entity, provided that: the course is free of charge; the course has no advertising, no paid promotion, no paid membership requirement, and no commercial sponsorship related to the Software; and the Software itself is not distributed through the course. If any of these conditions is not met, the exception in this Section 1.3(f) does not apply.
+
+All other educational use is prohibited. Without limitation, offline education, in-person teaching, school or university offline classes, paid online courses, paid platforms, paid training, corporate learning, and commercial educational services are strictly prohibited.
+
+1.4 "Permitted Research Use" means non-commercial academic, scholarly, or personal research use by an individual or a legally recognized non-profit organization, provided that:
+
+(a) The research is not intended for or resulting in economic gain.
+
+(b) The research is not performed for or on behalf of a for-profit entity.
+
+(c) Subject to the conditions below, research collaboration is permitted, including:
+
+    (i) online non-public collaboration through private channels;
+
+    (ii) offline, non-public, face-to-face collaboration;
+
+    (iii) sharing necessary research results, data, reports, drafts, and materials among direct research collaborators;
+
+    (iv) peer review, including providing confidential materials to reviewers;
+
+    (v) publication of papers, preprints, reports, results, and data, provided that no source code, Modified Version, binary, or material allowing reconstruction of the Software is included or made available without prior paper Written Consent.
+
+(d) Direct research collaborators may exchange files, including Modified Versions or source code solely for Permitted Research Use, only if all of the following conditions are met:
+
+    (i) the exchange is offline, non-public, or through a private non-public online channel;
+
+    (ii) each collaborator has independently obtained the Software from the Project Owner's official channels, or the exchange is strictly necessary for the research and not for redistribution;
+
+    (iii) the exchanged material is not uploaded to any public repository, public platform, preprint server, package manager, container registry, cloud storage, messaging group, or any other public or semi-public location;
+
+    (iv) the exchanged material is not used for any Commercial Purpose;
+
+    (v) the exchanged material is not further distributed to any person who is not a direct research collaborator;
+
+    (vi) each recipient remains bound by this license;
+
+    (vii) this license is retained in full with any exchanged copy.
+
+(e) Online non-public collaboration is permitted, including private meetings, private emails, private file transfers, and private repository access limited to direct research collaborators, provided that no public upload, public repository, public preprint, public package, public container, or public distribution of the Software, Modified Version, source code, or binary occurs.
+
+(f) Peer review is permitted. A researcher may provide the Software, Modified Version, source code, binary, data, results, or reports to a reviewer solely for confidential peer review, provided that the reviewer is bound by confidentiality, does not use the material for any Commercial Purpose, does not distribute it further, and does not publish it. The reviewer must destroy or return all copies after review unless retention is required by law or journal policy, in which case the reviewer remains bound by this license.
+
+(g) Publication of papers, preprints, reports, results, and data is permitted, provided that no source code, Modified Version, binary, or material allowing reconstruction of the Software is included or made publicly available without prior paper Written Consent. Publication of results and data does not grant any right to use the Software commercially.
+
+(h) The prohibition in this license includes, without limitation, public sharing with friends, colleagues, students, research collaborators, other departments, subsidiaries, affiliates, public repositories, public file-sharing services, public messaging groups, public preprint servers, public academic social networks, public cloud services, or any other public medium, whether or not any fee is charged.
+
+(i) Publication of the Software itself, any Modified Version, any source code, or any binary requires prior paper Written Consent. Publication of papers, preprints, reports, results, and data is permitted only to the extent expressly stated in this Section 1.4.
+
+1.5 "Commercial-Related Bundle" means any bundle, distribution, repository, package, collection, platform, marketplace, product, service, installer, image, mirror, or combined work that:
+
+(a) Is operated by, maintained by, sponsored by, or affiliated with a for-profit entity.
+
+(b) Is intended for commercial use, permits commercial use, facilitates commercial use, or is marketed for commercial use.
+
+(c) Contains any component, library, package, or code whose license permits commercial use.
+
+(d) Is monetized, ad-supported, dual-licensed for commercial purposes, paid, freemium, or otherwise commercial-related.
+
+(e) Even if the bundle itself is provided free of charge, if it is Commercial-Related, or if it contains any component whose license permits commercial use, then including this Software in that bundle is strictly prohibited.
+
+For the avoidance of doubt:
+
+(f) A public repository, gist, or package that contains only configuration files permitted under Section 2(e), and does not contain the Software, its source code, any Modified Version, or any binary, is not considered a Commercial-Related Bundle solely because the hosting platform is operated by a for-profit entity.
+
+(g) A mainstream online platform used solely for Permitted Educational Use is not considered a Commercial-Related Bundle if the conditions in Section 1.3(f) are met.
+
+(h) Private Storage, private CI/CD, private containers, and private cloud environments are not considered Commercial-Related Bundles if they are accessible only by You, not public, not shared with any third party, and not used for any Commercial Purpose.
+
+1.6 "Project Owner" means KUSSA / KUSSA_LTSC.
+
+1.7 "Written Consent" means prior, express, written authorization in physical paper form, bearing the Project Owner's handwritten signature or seal. It is the only form of consent that validly authorizes any act not expressly permitted by this license. Electronic signatures, digital signatures, scanned copies, photocopies, photographs, emails, GitHub commit or release signatures, PGP signatures, chat records, online forms, or any other electronic record do NOT constitute Written Consent and have no authorizing effect under this license.
+
+Application mechanism:
+
+(a) Who to apply to: The Project Owner, KUSSA / KUSSA_LTSC.
+
+(b) How to apply: The applicant must prepare a paper application and send it by post or courier to the paper communication address published by the Project Owner in the official project repository or official public channels. Before such an address is published, no valid application channel exists.
+
+(c) Content of application: The application must include the applicant's full legal name or legal entity name, address, contact information, software name and version, intended use, whether the use is commercial, scope of license requested, territory, duration, number of users or copies, applicant's signature, and date.
+
+(d) Response time: The Project Owner has no obligation to respond within any period. No response, delay, or silence does not constitute consent. Authorization exists only when the applicant actually receives a paper document signed or sealed by the Project Owner.
+
+(e) Fees: Whether review fees, license fees, or other fees are charged is determined solely by the Project Owner and shall be stated in official channels or in the paper consent. If no fee is stated, no review fee is charged, but the applicant bears all postage, courier, notarization, translation, and related costs. Commercial license fees, if any, are separately agreed.
+
+(f) Valid format: Only a paper original, or a paper counterpart bearing the Project Owner's handwritten signature or seal, is valid. It must identify the licensee, the Software, version, permitted scope, duration, territory, and conditions. Electronic copies, scans, PDFs, photographs, emails, PGP messages, GitHub records, or electronic signatures are invalid.
+
+(g) All references to "Written Consent" in this license mean only the paper-form consent defined in this Section 1.7.
+
+1.8 "You" means the individual or legal entity exercising rights under this license.
+
+(a) If You are an individual, You may exercise rights only for Yourself personally, privately, and non-commercially. You may not act on behalf of, for, or within the scope of any for-profit entity.
+
+(b) If You are a legal entity, You may exercise rights only if You are a legally recognized non-profit organization, and only for internal administrative use of the original, unmodified Software. A non-profit organization may not modify the source code. A non-profit organization may not share Modified Versions or modified configurations among its employees, departments, subsidiaries, affiliates, or any third party. Each individual within the organization who wishes to modify configuration must do so only for personal private use and may not share that modification with the organization or any other person, except that any person may publicly share configuration files in accordance with Section 2(e).
+
+(c) Employees, contractors, officers, and agents of any entity do not receive any rights broader than those granted to the entity. Personal use by an employee is permitted only if it is truly personal, private, non-commercial, and not for the benefit of, on behalf of, or in support of the employer.
+
+1.9 "Distribution" means any act of providing, transferring, uploading, transmitting, publishing, sharing, lending, giving, disclosing, making available, or otherwise distributing the Software, any copy, any Modified Version, any derivative work, any output, any result, any report, any data, or any material based on or incorporating the Software to any third party. Different departments, subsidiaries, affiliates, friends, colleagues, students, research collaborators, and family members are third parties for purposes of this license, except as expressly provided in Section 1.4 and Section 2(e). Private storage that is accessible only by You and not by any third party does not constitute Distribution.
+
+For the avoidance of doubt:
+
+(a) Access to the original, unmodified Software by employees of the same legal entity solely for the non-profit organization's internal administrative use does not constitute Distribution, provided that the organization is a legally recognized non-profit, the Software is not modified, and the access is not for any Commercial Purpose.
+
+(b) Public disclosure of a configuration file that complies with Section 2(e) does not constitute Distribution of the Software or a Modified Version, provided it contains no source code, binary, executable logic, or material that would allow reconstruction of the Software.
+
+1.10 "Private Storage" means storage in a private version control system, private backup, private repository, private container, private cloud environment, or private CI/CD system that is accessible only by You, is not public, is not shared with any third party, and is not used for any Commercial Purpose. Private storage may be hosted on GitHub or another for-profit platform only if the repository is private, remains private, is not forked to any public repository, is not made public, and is not accessible to any third party. You must retain this license in all private copies.
 
 2. PERMISSIONS
 
-You may:
+You may only do the following, and only to the extent expressly stated:
 
-(a) Download, view, and use the source code for personal, educational, or private purposes.
+(a) Download, view, and use the source code for:
 
-(b) Modify the source code for personal, educational, or private use only. Modified versions are for personal use ONLY and may NOT be distributed to any third party, including but not limited to other departments, subsidiaries, or affiliates of the same legal entity.
+    (i) personal private study by an individual;
+
+    (ii) Permitted Educational Use;
+
+    (iii) Permitted Research Use;
+
+    (iv) internal administrative use by a legally recognized non-profit organization, but only using the original, unmodified Software, and only if the organization does not generate revenue and does not provide fee-based services.
+
+(b) Modify the source code solely for Your own personal, private use, or for Permitted Research Use as expressly allowed by Section 1.4. Modified Versions are for personal or Permitted Research Use ONLY and may NOT be distributed, published, shared, uploaded, transmitted, given, lent, transferred, sublicensed, sold, or made available to any third party, except as expressly allowed by Section 1.4. Non-profit organizations may not modify the source code for internal administrative use.
 
 (c) Submit contributions (Pull Requests). By doing so, you agree:
+
     (i) You retain copyright of your contribution.
-    (ii) You grant the Project Owner (KUSSA/KUSSA_LTSC) a perpetual, worldwide, royalty‑free, irrevocable, sublicensable license to use, reproduce, modify, distribute, and monetize your contribution.
+
+    (ii) You grant the Project Owner (KUSSA/KUSSA_LTSC) a perpetual, worldwide, royalty-free, irrevocable, sublicensable license to use, reproduce, modify, distribute, and monetize your contribution.
+
     (iii) The Project Owner has sole authority to determine commercial licensing, distribution, and monetization terms.
+
     (iv) Your contribution will only be accepted if both you AND the Project Owner agree to its inclusion. You represent that you have read, understood, and voluntarily agree to these terms.
 
-(d) Distribute ORIGINAL, UNMODIFIED copies for non‑commercial purposes only, with this license intact.
+(d) You may NOT distribute, publish, share, upload, transmit, lend, give, or make available the Software or any copy, whether original or modified, to any third party without prior paper Written Consent, except as expressly allowed by Section 1.4 and Section 2(e). If paper Written Consent is granted for original unmodified copies, distribution must be non-commercial, must include this license intact, and must comply with all restrictions in this license.
 
-(e) Modify configuration files or settings solely to enable or change operational parameters. Such modifications do NOT constitute a Modified Version, provided source files are unchanged.
+(e) Modify configuration files or settings solely to enable or change operational parameters for Your own permitted use. Such modifications do NOT constitute a Modified Version, provided source files remain unchanged and the configuration file contains no source code, scripts, executable logic, or other code.
 
-(f) Include this Software in larger bundles or free software distributions, provided this license is included and the Software is unmodified.
+You MAY publicly share, publish, upload, or distribute such configuration files, and any person may do so, subject only to the following conditions:
+
+    (i) the configuration file must not contain, embed, or reproduce any source code, Modified Version, binary, executable code, script, or any material that would allow reconstruction of the Software;
+
+    (ii) the configuration file must not be represented as official, approved, or supported by the Project Owner;
+
+    (iii) this license should be included in full with the public configuration, or a prominent link to this license should be provided alongside it;
+
+    (iv) the public configuration must not be used to train, fine-tune, distill, evaluate, benchmark, or otherwise develop any AI or machine learning model.
+
+Public sharing of configuration files under this Section 2(e) is permitted even on public code hosting platforms, provided the Software itself, its source code, any Modified Version, and any binary are not uploaded or made available in the same public repository, gist, package, or distribution. This permission does not grant any right to publish the Software or any Modified Version.
+
+(f) Private Storage: You may make necessary backups, temporary copies, private CI/CD runs, private containerization, and private cloud deployments solely for personal private use, non-profit internal administrative use of the original unmodified Software, Permitted Educational Use, or Permitted Research Use, provided that:
+
+    (i) no copy is made available to any third party, except as expressly allowed by Section 1.4;
+
+    (ii) no copy is public;
+
+    (iii) no copy is used for any Commercial Purpose;
+
+    (iv) no copy is used to train, fine-tune, distill, or otherwise develop any AI model;
+
+    (v) this license is retained in full;
+
+    (vi) private repositories remain private and are not forked to public repositories.
+
+For the avoidance of doubt, using a for-profit platform for Private Storage, private CI/CD, private containers, or private cloud does not by itself constitute a Commercial-Related Bundle or a violation of Section 3(h), provided the conditions in this Section 2(f) are met.
+
+(g) No other permissions are granted. All rights not expressly granted are reserved by the Project Owner.
 
 3. RESTRICTIONS
 
 You may NOT:
 
-(a) Use the Software for any Commercial Purpose (as defined in Section 1.1).
+(a) Use the Software for any Commercial Purpose as defined in Section 1.1.
 
-(b) Sell the Software or any services based on it.
+(b) Use the Software if You are a for-profit entity, or if You are acting for, on behalf of, or within the scope of employment of a for-profit entity. This prohibition includes evaluation, testing, benchmarking, trial, proof-of-concept, development, internal use, and non-production use.
 
-(c) Use the Software to generate revenue, directly or indirectly.
+(c) Sell, resell, license, sublicense, rent, lease, monetize, or provide any services based on the Software.
 
-(d) Remove or alter this license or copyright notices.
+(d) Use the Software to generate revenue, directly or indirectly.
 
-(e) Distribute Modified Versions (source or binary) to any third party, including but not limited to other departments, subsidiaries, or affiliates of the same legal entity. Modified versions are for personal use only.
+(e) Remove or alter this license or any copyright notices.
 
-(f) Combine, link, or distribute the Software with GPL, AGPL, or any copyleft license that imposes additional restrictions or incompatible terms. This license is NOT compatible with GPL‑family licenses. If this Software is combined with GPL-family licensed code, the resulting combination may be governed by the GPL terms, and this license shall not apply to the combined work. The Project Owner assumes no responsibility for such combinations created by third parties.
+(f) Distribute, publish, share, upload, transmit, give, lend, or make available Modified Versions, source or binary, to any third party, including but not limited to friends, colleagues, students, other departments, subsidiaries, or affiliates of the same legal entity, except as expressly allowed by Section 1.4. Modified Versions are for personal or Permitted Research Use only.
 
-(g) Reverse engineer, decompile, disassemble, or attempt to derive the source code, except as expressly permitted by applicable law.
+(g) Distribute, publish, share, upload, transmit, mirror, lend, give, or otherwise make available the Software, any copy, any Modified Version, any derivative work, any output, any result, or any part thereof to any third party without prior paper Written Consent. This prohibition applies even if no platform is used, even if no fee is charged, and even if the recipient is a friend, colleague, student, research collaborator, family member, department, subsidiary, or affiliate. The exceptions are:
 
-(h) Modify, adapt, translate, or create derivative works, except as permitted in Section 2(b) and 2(e).
+    (i) the research collaboration, peer review, and publication permissions expressly stated in Section 1.4;
 
-(i) Remove, obscure, or alter any proprietary notices.
+    (ii) public sharing of configuration files expressly permitted under Section 2(e);
 
-(j) Use the Software for any unlawful purpose.
+    (iii) access to the original unmodified Software by employees of the same non-profit legal entity for internal administrative use as stated in Section 1.9(a).
 
-(k) Intentionally circumvent, avoid, remove, deactivate, impair, or defeat any technical protection measures implemented by the Project Owner, whether simple or complex, existing or not.
+(h) Include, combine, link, bundle, or distribute the Software with or within any Commercial-Related Bundle. Without limiting the foregoing, you may not combine, link, bundle, or distribute the Software with any library, component, package, distribution, platform, marketplace, product, service, or bundle that is commercial-related, operated by a for-profit entity, permits or facilitates commercial use, or contains components whose licenses permit commercial use, even if the bundle is provided free of charge. If a bundle contains the Software and is commercial-related or permits commercial use, such inclusion is strictly prohibited.
 
-(l) Use of third-party libraries or code is at your own risk. The Project Owner does not represent or warrant that this Software is compatible with or free from the licensing obligations of any third-party code. If you incorporate, link, or distribute this Software with any GPL-family licensed code, you bear sole and exclusive responsibility for complying with the terms of such licenses. Any such combination is made by you, not the Project Owner, and this license does not extend to the combined work. The Project Owner expressly disclaims any obligation to ensure compatibility with third-party licenses.
+This prohibition does not apply to:
+
+    (i) a public repository, gist, or package that contains only configuration files permitted under Section 2(e), provided it does not contain the Software, its source code, any Modified Version, or any binary, and provided the configuration is not used for any Commercial Purpose;
+
+    (ii) a mainstream online platform used solely for Permitted Educational Use if the conditions in Section 1.3(f) are met;
+
+    (iii) Private Storage, private CI/CD, private containers, and private cloud environments if the conditions in Section 2(f) are met.
+
+(i) Combine, link, or distribute the Software with GPL, AGPL, or any copyleft license that imposes additional restrictions or incompatible terms. This license is NOT compatible with GPL-family licenses. If this Software is combined with GPL-family licensed code, the resulting combination may be governed by the GPL terms, and this license shall not apply to the combined work. The Project Owner assumes no responsibility for such combinations created by third parties.
+
+(j) Use the Software for education except Permitted Educational Use. Without limitation, commercialized education, paid education, fee-based education, corporate training, offline education, in-person teaching, school or university offline classes, paid workshops, bootcamps, tutoring, and any educational use not meeting the definition of Permitted Educational Use are strictly prohibited.
+
+(k) Publish, distribute, share, upload, transmit, disclose, or otherwise make available any research output, Modified Version, derivative work, code, data, result, report, or material that contains, incorporates, is based on, or is derived from the Software online or to the public without prior paper Written Consent, except as expressly allowed by Section 1.4. Publication of papers, preprints, reports, results, and data is permitted under Section 1.4(g), provided no source code, Modified Version, binary, or material allowing reconstruction of the Software is included or made publicly available without prior paper Written Consent.
+
+(l) Reverse engineer, decompile, disassemble, or attempt to derive the source code, except as expressly permitted by applicable law.
+
+(m) Modify, adapt, translate, or create derivative works, except as permitted in Section 2(b), Section 2(e), and Section 1.4.
+
+(n) Remove, obscure, or alter any proprietary notices.
+
+(o) Use the Software for any unlawful purpose.
+
+(p) Intentionally circumvent, avoid, remove, deactivate, impair, or defeat any technical protection measures implemented by the Project Owner, whether simple or complex, existing or not.
+
+(q) Use third-party libraries or code at your own risk. The Project Owner does not represent or warrant that this Software is compatible with or free from the licensing obligations of any third-party code. If you incorporate, link, or distribute this Software with any GPL-family licensed code or any commercial-related code, you bear sole and exclusive responsibility for complying with the terms of such licenses. Any such combination is made by you, not the Project Owner, and this license does not extend to the combined work. The Project Owner expressly disclaims any obligation to ensure compatibility with third-party licenses.
+
+(r) Use the Software to train, fine-tune, distill, evaluate, benchmark, or otherwise develop any artificial intelligence or machine learning model, except with prior paper Written Consent.
+
+(s) Make any public fork, public mirror, public repository, public gist, public container image, public package, public build, or public source-visible copy of the Software or any Modified Version.
+
+This prohibition does not apply to a public repository, gist, or package that contains only configuration files permitted under Section 2(e), provided it does not contain the Software, its source code, any Modified Version, or any binary.
+
+(t) Any use not expressly permitted by this license is strictly prohibited. All rights not expressly granted by this license are reserved by the Project Owner.
 
 4. INFRINGEMENT AND REMEDIES
 
-ANY USE NOT EXPRESSLY PERMITTED BY THIS LICENSE IS STRICTLY PROHIBITED AND CONSTITUTES COPYRIGHT INFRINGEMENT. Any use not enumerated in Section 2 requires a separate, explicit written commercial license agreement from the Project Owner. An electronic signature from the Project Owner is required for such authorization to be valid. The Project Owner may sign using their designated name (KUSSA/KUSSA_LTSC) or any other name they lawfully use to identify themselves. The authenticity of such signature shall be verified through the Project Owner's GitHub account (KUSSA_LTSC) or its associated public channels, including but not limited to the official project repository, verified email address, or PGP public key. A signature verified by GitHub's commit‑signing or release‑signing mechanisms shall be presumed authentic.
+ANY USE NOT EXPRESSLY PERMITTED BY THIS LICENSE IS STRICTLY PROHIBITED AND CONSTITUTES COPYRIGHT INFRINGEMENT. Any use not enumerated in Section 2 requires a separate, explicit paper Written Consent as defined in Section 1.7. For any commercial use, a separate commercial license agreement in paper form signed by the Project Owner is required.
+
+Electronic signatures, GitHub signatures, PGP signatures, email confirmations, scanned documents, online forms, or any other electronic record do NOT constitute Written Consent and are not valid authorization. Only a paper document bearing the Project Owner's handwritten signature or seal is valid. The Project Owner may sign using their designated name (KUSSA/KUSSA_LTSC) or any other name they lawfully use to identify themselves. Authenticity is determined by the paper original; electronic verification methods do not create authorization.
 
 Any use violating Section 3 constitutes infringement. Remedies shall be governed by the Copyright Law of the People's Republic of China.
 
 5. COMMERCIAL USE
 
-The exclusive right to monetize, sell, and profit from the Software belongs to the Project Owner (KUSSA/KUSSA_LTSC). Any commercial use by third parties requires a separate commercial license agreement as described in Section 4.
+The exclusive right to monetize, sell, license, distribute, and profit from the Software belongs to the Project Owner (KUSSA/KUSSA_LTSC). Any commercial use by any third party requires a separate commercial license agreement granted through prior paper Written Consent as described in Section 4. No commercial use is permitted by implication, estoppel, course of dealing, or otherwise.
 
 6. COPYRIGHT TERM
 
@@ -97,3 +310,21 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 8. LICENSE INTEGRITY
 
 This license must be distributed in its entirety, without modification, deletion, or addition of any terms, except as expressly permitted by the Project Owner in writing. Any attempt to modify, abridge, or supplement this license, or to remove or alter any of its provisions, shall render this license null and void with respect to the modified version. The Project Owner reserves the right to publish revised versions of this license; only the specific version referenced in the SPDX identifier or copyright notice of the Software shall apply.
+
+9. TERMINATION
+
+Any violation of this license automatically terminates all rights granted to You under this license. Upon termination, You must immediately stop all use, delete or destroy all copies, Modified Versions, private copies, backups, configurations, container images, cloud deployments, and other materials covered by this license, and certify such destruction in paper form if requested by the Project Owner. Termination does not limit the Project Owner's right to pursue remedies for past or continuing infringement. Rights may be restored only by a new paper Written Consent signed or sealed by the Project Owner.
+
+10. GOVERNING LAW AND JURISDICTION
+
+This license and all disputes arising from or relating to it shall be governed by the laws of the People's Republic of China. The courts located at the Project Owner's principal place of business or residence shall have exclusive jurisdiction, unless the Project Owner expressly agrees otherwise in a paper Written Consent.
+
+11. SEVERABILITY
+
+If any provision of this license is held invalid, illegal, or unenforceable, the remaining provisions shall remain in full force and effect. The invalid provision shall be interpreted to give the maximum effect permitted by law to the Project Owner's intent to restrict commercial use and reserve all rights.
+
+12. SPDX IDENTIFIER
+
+SPDX-License-Identifier: LicenseRef-KUDOS-Source-Available-2.5
+
+This identifier is a custom license reference. It does not indicate OSI approval and does not mean this license is an open source license.
